@@ -1,0 +1,32 @@
+.main-nav a {
+    font-size: 20px;
+    color: #3C404A;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+.main-nav a:hover {
+    color: #fb6376;
+}
+
+/*--------------- Selected elements style ----------------*/
+#selected {
+    color: #5762D5;
+}
+
+/*--------------- Main navigation bar style --------------*/
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0px 10px 25px #00000037;
+    background-color: white;
+}
+.main-nav {
+    display: flex;
+    column-gap: 20px;
+}
+header img:hover {
+    cursor: pointer;
+}
